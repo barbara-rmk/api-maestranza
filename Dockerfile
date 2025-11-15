@@ -7,7 +7,6 @@
 #################################################################
 
 ### Build stage: compilar el jar
-// Use an existing Maven image tag with Temurin JDK (openjdk tag used previously may not exist on Docker Hub)
 FROM maven:3.8.8-eclipse-temurin-17 AS build
 WORKDIR /app
 
