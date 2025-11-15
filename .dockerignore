@@ -1,0 +1,17 @@
+# Ignore build output and local files
+target
+.idea
+.vscode
+*.iml
+.git
+.gitignore
+.DS_Store
+README.md
+*.log
+# If you use local maven wrapper jar and don't want to copy
+/.mvn/wrapper/maven-wrapper.jar
+
+# OS files
+Thumbs.db
+# Ignore Dockerfile itself if you don't want it in context (optional)
+# Dockerfile
